@@ -31,7 +31,7 @@ class Serendipitous {
             $lastWord = array_shift($words);
             $line .= $lastWord.' ';
           endwhile;
-          if ( in_array($lastWord, $this->noLineEnd() ) ) break;
+          if ( in_array($lastWord, $this->noLineEnd ) ) break;
           $line = trim($line);
         endforeach;
         if (strlen($lines[0]) > 1 && strlen($lines[1]) > 1 && strlen($lines[2]) > 1) :

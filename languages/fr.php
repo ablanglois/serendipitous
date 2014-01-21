@@ -32,6 +32,6 @@ return array(
       array('«', '»'),
       array('"', '"'),
       array('“', '”')
-      );
+      )
   );
 ?>
